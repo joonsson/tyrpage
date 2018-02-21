@@ -18,5 +18,8 @@
   "homepage": "https://github.com/joonsson/tyrpage#readme",
   "devDependencies": {
     "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
   }
 }
