@@ -1,0 +1,22 @@
+{
+  "name": "tyrpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joonsson/tyrpage.git"
+  },
+  "author": "Oskar Jonsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joonsson/tyrpage/issues"
+  },
+  "homepage": "https://github.com/joonsson/tyrpage#readme",
+  "devDependencies": {
+    "typescript": "^2.7.2"
+  }
+}
