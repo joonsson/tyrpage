@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0",
+    "test": "npm install && npm run build",
     "lint": "tslint src/*.ts",
     "webpack": "webpack",
     "less": "lessc src/style/tyr.less dist/tyr.css",
     "copy": "cp src/html/index.html dist/index.html",
-    "build": "npm run lint && npm run webpack && npm run less && npm run copy"
+    "build": "npm run lint && npm run webpack && npm run less && npm run copy",
+    "start": "server.js"
   },
   "repository": {
     "type": "git",
